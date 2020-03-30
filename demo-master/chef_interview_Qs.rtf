@@ -1,7 +1,7 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf840
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red27\green31\blue34;\red244\green246\blue249;}
+{\*\expandedcolortbl;;\cssrgb\c14118\c16078\c18039;\cssrgb\c96471\c97255\c98039;}
 \margl1440\margr1440\vieww28600\viewh15480\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
@@ -54,8 +54,15 @@
 32.what is foodcritic?how do you verify syntax of cookbooks\
 33. can we manage chef environment whithout having chef server? if yes how?\
 34.what is test kitchen and how do we setup? how do we test cookbooks using test kitchen\
-\
-  \
+35.cookbooks are add to runlist an but it\'92s not appear. another node it\'92s executed but this node display.\
+36. how we can maintain particular version(set of cookbooks) of cookbook to different environments servers without using environments.\
+37.how chef client knows version has been changed or modification happened on cookbook.\
+ \
+  
+\f1\fs27\fsmilli13600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+aws cloudformation create-stack --template-body file://ecs-jenkins-demo.template --stack-name JenkinsStack --capabilities CAPABILITY_IAM --tags Key=Name,Value=Jenkins --region us-west-2 --parameters ParameterKey=EcsStackName,ParameterValue=EcsClusterStack\
+
+\f0\fs88 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
    \
   \
 \
